@@ -1,8 +1,0 @@
-.PortfolioMainSection{
-    display: flex;
-    justify-content: space-evenly;
-    align-items: center;
-}
-.PortfolioMainSection img {
-    width: 30%;
-}

@@ -1,0 +1,42 @@
+.page_header {
+  display: flex;
+  justify-content: space-between;
+}
+.page_header ul {
+  display: flex;
+  /* flex-basis: 45%; */
+  justify-content: space-around;
+  align-items: center;
+  list-style: none;
+}
+.ContactMe {
+  display: flex;
+  align-items: center;
+}
+.ContactMe a {
+  /* border: 2px solid black; */
+  background-color: aliceblue;
+  /* padding: 10% 20%; */
+  text-wrap: nowrap;
+  text-decoration: none;
+}
+.ContactMe a:hover {
+  color: rgb(0, 0, 0);
+  background-color: rgb(255, 245, 234);
+  border: 2px solid rgb(255, 255, 255);
+}
+.logo_section {
+  background-color: azure;
+  display: flex;
+  align-items: center;
+}
+.logo_name a {
+  color: rgb(29, 69, 104);
+  font-size: 400%;
+  font-family: "Bree Serif", serif;
+  text-decoration: none;
+}
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (max-width: 768px) {
+
+}

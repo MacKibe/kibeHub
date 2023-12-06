@@ -3,12 +3,20 @@
   padding: 0;
   box-sizing: border-box;
 }
-body,html {
+body,
+html {
   /* Display my items in the middle */
-  display: flex;
   min-height: 100dvh;
-  justify-content: center;
-  align-items: center;
   background-color: #ffe5bd;
-  color: #001A42;
+  color: #001a42;
+  width: 75%;
+  margin: 0 auto;
+}
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (max-width: 768px) {
+  body,
+  html {
+    background-color: #001a42;
+    width: 100%;
+  }
 }
