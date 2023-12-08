@@ -1,0 +1,22 @@
+.bio_section {
+  /* background-color: aliceblue; */
+  margin-block: 5%;
+  text-align: center;
+}
+.image_box {
+  /* background-color: rgb(77, 101, 122); */
+  width: 60%;
+  margin: 0 auto;
+}
+img {
+  margin: 0 auto;
+  width: 50%;
+  border-radius: 50%;
+}
+.socials_section {
+  display: flex;
+  justify-content: space-around;
+}
+.socials_section img {
+  width: 3%;
+}
