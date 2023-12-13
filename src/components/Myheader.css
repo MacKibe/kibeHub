@@ -1,8 +1,8 @@
 .page_header {
   display: flex;
-  justify-content: space-between;
 }
 .page_header ul {
+  background-color: aliceblue;
   display: flex;
   flex-basis: 45%;
   justify-content: space-around;

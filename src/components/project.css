@@ -1,0 +1,14 @@
+.project {
+  display: flex;
+  margin-block: 1%;
+  padding: 1%;
+  background-color: rgb(64, 167, 167);
+}
+.project img {
+  background-color: aqua;
+  border: 3px solid rgb(110, 75, 75);
+  padding: 1%;
+}
+.project_details {
+  margin-left: 1%;
+}

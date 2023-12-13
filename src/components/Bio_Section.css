@@ -1,6 +1,6 @@
 .bio_section {
   /* background-color: aliceblue; */
-  margin-block: 5%;
+  padding: 5%;
   text-align: center;
 }
 .image_box {
@@ -8,14 +8,21 @@
   width: 60%;
   margin: 0 auto;
 }
-img {
+.image_box img {
   margin: 0 auto;
   width: 50%;
   border-radius: 50%;
 }
 .socials_section {
+  /* background-color: aqua; */
+  align-items: center;
   display: flex;
-  justify-content: space-around;
+}
+.aa {
+  /* background-color: #fff; */
+}
+.aaa {
+  /* background-color: #e65555; */
 }
 .socials_section img {
   width: 3%;

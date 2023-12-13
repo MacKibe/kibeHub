@@ -22,10 +22,8 @@ const Bio_Section = () => {
           </h4>
         </div>
         <div className="socials_section">
-          <div>
-            Lets Connect:
-          </div>
-          <div>
+          <span className="aa">Lets Connect:</span>
+          <span className="aaa">
             <a href="https://github.com/MacKibe" target="blank">
               <img src={github_logo} alt="Ndichu's Github Account" />
             </a>
@@ -38,7 +36,7 @@ const Bio_Section = () => {
             <a href="https://github.com/MacKibe" target="blank">
               <img src={instagram} alt="Ndichu's Github Account" />
             </a>
-          </div>
+          </span>
         </div>
       </div>
     </div>

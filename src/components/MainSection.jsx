@@ -6,8 +6,8 @@ const MainSection = () => {
   return (
     <>
       <Bio_Section />
-      <Skill_Section />
       <Projects_Section />
+      <Skill_Section />
       <ContactMe_Section />
     </>
   );
