@@ -1,0 +1,22 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body,
+html {
+  /* Display my items in the middle */
+  min-height: 100dvh;
+  background-color: #ffe5bd;
+  color: #001a42;
+  width: 75%;
+  margin: 0 auto;
+}
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (max-width: 768px) {
+  body,
+  html {
+    background-color: #001a42;
+    width: 100%;
+  }
+}
