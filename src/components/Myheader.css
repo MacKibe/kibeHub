@@ -1,17 +1,15 @@
 .page_header {
-  display: flex;
-}
-.page_header ul {
   background-color: aliceblue;
-  display: flex;
-  flex-basis: 45%;
-  justify-content: space-around;
+  display: grid;
+  grid-template-columns: 1fr 3fr 1fr;
   align-items: center;
-  list-style: none;
+  justify-items: center;
 }
-.ContactMe {
+.menu_section {
+  list-style: none;
+  width: 100%;
   display: flex;
-  align-items: center;
+  justify-content: end;
 }
 .ContactMe a {
   border: 2px solid black;
@@ -25,11 +23,6 @@
   background-color: rgb(255, 245, 234);
   border: 2px solid rgb(255, 255, 255);
 }
-.logo_section {
-  background-color: azure;
-  display: flex;
-  align-items: center;
-}
 .logo_name a {
   color: rgb(29, 69, 104);
   font-size: 400%;
@@ -38,5 +31,4 @@
 }
 /* Medium devices (landscape tablets, 768px and up) */
 @media only screen and (max-width: 768px) {
-
 }

@@ -9,7 +9,7 @@ const Bio_Section = () => {
     <div className="bio_section">
       <div className="image_box">
         <img src={m3} alt="" />
-        <div>
+        <div className="bio_image_details">
           <h2>Ndichu James Kiberenge</h2>
           <h3>Data Manager || Web Developer || Photographer</h3>
         </div>
@@ -23,20 +23,18 @@ const Bio_Section = () => {
         </div>
         <div className="socials_section">
           <span className="aa">Lets Connect:</span>
-          <span className="aaa">
-            <a href="https://github.com/MacKibe" target="blank">
-              <img src={github_logo} alt="Ndichu's Github Account" />
-            </a>
-            <a href="https://github.com/MacKibe" target="blank">
-              <img src={whatsApp_logo} alt="Ndichu's Github Account" />
-            </a>
-            <a href="https://github.com/MacKibe" target="blank">
-              <img src={linkedIn} alt="Ndichu's Github Account" />
-            </a>
-            <a href="https://github.com/MacKibe" target="blank">
-              <img src={instagram} alt="Ndichu's Github Account" />
-            </a>
-          </span>
+          <a href="https://github.com/MacKibe" target="blank">
+            <img src={github_logo} alt="Ndichu's Github Account" />
+          </a>
+          <a href="https://github.com/MacKibe" target="blank">
+            <img src={whatsApp_logo} alt="Ndichu's Github Account" />
+          </a>
+          <a href="https://github.com/MacKibe" target="blank">
+            <img src={linkedIn} alt="Ndichu's Github Account" />
+          </a>
+          <a href="https://github.com/MacKibe" target="blank">
+            <img src={instagram} alt="Ndichu's Github Account" />
+          </a>
         </div>
       </div>
     </div>

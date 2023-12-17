@@ -1,29 +1,19 @@
 .bio_section {
-  /* background-color: aliceblue; */
-  padding: 5%;
   text-align: center;
 }
-.image_box {
-  /* background-color: rgb(77, 101, 122); */
-  width: 60%;
-  margin: 0 auto;
-}
 .image_box img {
-  margin: 0 auto;
-  width: 50%;
+  width: 40%;
   border-radius: 50%;
 }
-.socials_section {
-  /* background-color: aqua; */
-  align-items: center;
-  display: flex;
+.image_box * {
+  padding-block: 1%;
 }
-.aa {
+.bio_image_details {
   /* background-color: #fff; */
 }
 .aaa {
   /* background-color: #e65555; */
 }
 .socials_section img {
-  width: 3%;
+  width: 2%;
 }

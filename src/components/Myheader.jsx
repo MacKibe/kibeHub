@@ -3,12 +3,10 @@ const Myheader = () => {
   return (
     <div className="page_header">
       {/* Logo and menu */}
-      <div className="logo_section">
-        <span className="logo_name">
-          <a href="#">JK.</a>
-        </span>
+      <div className="logo_name">
+        <a href="#">JK.</a>
       </div>
-      <ul>
+      <ul className="menu_section">
         <li>
           <a href="">Home</a>
         </li>
@@ -18,10 +16,10 @@ const Myheader = () => {
         <li>
           <a href="">Skills</a>
         </li>
-        <li className="ContactMe">
-          <a href="">Contact Me</a>
-        </li>
       </ul>
+      <div className="ContactMe">
+        <a href="">Contact Me</a>
+      </div>
     </div>
   );
 };
