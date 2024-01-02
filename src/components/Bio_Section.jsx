@@ -11,7 +11,7 @@ const Bio_Section = () => {
         <img src={m3} alt="" />
         <div className="bio_image_details">
           <h2>Ndichu James Kiberenge</h2>
-          <h3>Data Manager || Web Developer || Photographer</h3>
+          <h3>Web Designer Developer || Photographer</h3>
         </div>
       </div>
       <div>
