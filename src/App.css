@@ -7,9 +7,8 @@ body,
 html {
   /* Display my items in the middle */
   min-height: 100dvh;
-  background-color: #ffe5bd;
   color: #001a42;
-  width: 75%;
+  /* width: 75%; */
   margin: 0 auto;
 }
 /* Medium devices (landscape tablets, 768px and up) */

@@ -3,7 +3,7 @@
     flex-direction: column;
     padding: 2%;
     gap: 2%;
-    background-color:azure;
+    /* background-color:azure; */
 }
 .projects_section img {
     width: 30%;
