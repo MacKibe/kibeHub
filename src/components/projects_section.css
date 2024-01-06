@@ -1,10 +1,8 @@
 .projects_section {
     display: flex;
-    flex-direction: column;
     padding: 2%;
     gap: 2%;
-    /* background-color:azure; */
 }
 .projects_section img {
-    width: 30%;
+    width: 100%;
 }

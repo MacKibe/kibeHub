@@ -1,14 +1,17 @@
 .project {
   display: flex;
-  margin-block: 1%;
+  flex-direction: column;
   padding: 1%;
-  /* background-color: rgb(64, 167, 167); */
+  border: 1px solid rgb(110, 75, 75);
+  transition: box-shadow 0.4s ease-in-out;
 }
-.project img {
-  /* background-color: aqua; */
-  border: 3px solid rgb(110, 75, 75);
-  padding: 1%;
+.project:hover {
+  background-color: aliceblue;
+  box-shadow: 1px 3px 36px -2px rgba(0,0,0,0.75);
+  -webkit-box-shadow: 1px 3px 36px -2px rgba(0,0,0,0.75);
+  -moz-box-shadow: 1px 3px 36px -2px rgba(0,0,0,0.75);
 }
-.project_details {
-  margin-left: 1%;
+a{
+  text-decoration: none;
+  color: black;
 }

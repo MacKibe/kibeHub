@@ -1,0 +1,123 @@
+.bio_section {
+  background: url(../assets/bg-shapes.jpg) no-repeat;
+  background-size: cover;
+  min-height: 80dvh;
+  color: #2ec4b6;
+}
+.image_box img {
+  position: absolute;
+  left: 2%;
+  bottom: 14%;
+  width: 40%;
+  animation: myImageAnimation 3s ease 0s 1 normal forwards;
+}
+.image_box .bio_details {
+  width: 28%;
+  position: absolute;
+  left: 45%;
+  top: 28%;
+  animation: myImageAnimation 3s ease 1s 1 normal forwards;
+}
+.bio_details h2 {
+  font-size: 4em;
+  font-family: "Bree Serif", serif;
+}
+.bio_details h4 {
+  padding-top: 10%;
+}
+.bio_section button {
+  background-color: #ff9f1c;
+  border: 3px solid rgb(255, 255, 255);
+  margin-top: 5%;
+  float: right;
+  padding: 3% 6%;
+  font-weight: bolder;
+}
+.socials_section {
+  width: 3%;
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  top: 30%;
+  right: 1%;
+}
+.socials_section img {
+  background-color: aliceblue;
+  border-radius: 10%;
+  width: 80%;
+  margin-block: 20%;
+}
+.socials_section a{
+  animation: dropDownAnimation 3s ease 1 normal forwards;
+}
+.socials_section a:nth-child(4) {
+  animation-delay: 3s;
+}
+.socials_section a:nth-child(3) {
+  animation-delay: 4s;
+}
+.socials_section a:nth-child(2) {
+  animation-delay: 5s;
+}
+.socials_section a:nth-child(1) {
+  animation-delay: 6s;
+}
+/* Animation for my items
+*/
+/* The image */
+@keyframes myImageAnimation {
+  0% {
+    opacity: 0;
+    transform: translateX(-50px);
+  }
+
+  100% {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+/* 
+Socials media icons */
+@keyframes dropDownAnimation {
+  0% {
+    animation-timing-function: ease-in;
+    opacity: 0;
+    transform: translateY(-250px);
+  }
+
+  38% {
+    animation-timing-function: ease-out;
+    opacity: 1;
+    transform: translateY(0);
+  }
+
+  55% {
+    animation-timing-function: ease-in;
+    transform: translateY(-65px);
+  }
+
+  72% {
+    animation-timing-function: ease-out;
+    transform: translateY(0);
+  }
+
+  81% {
+    animation-timing-function: ease-in;
+    transform: translateY(-28px);
+  }
+
+  90% {
+    animation-timing-function: ease-out;
+    transform: translateY(0);
+  }
+
+  95% {
+    animation-timing-function: ease-in;
+    transform: translateY(-8px);
+  }
+
+  100% {
+    animation-timing-function: ease-out;
+    transform: translateY(0);
+  }
+}
