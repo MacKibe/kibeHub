@@ -2,7 +2,7 @@ import Project from "./Project";
 import "./projects_section.css";
 const Projects_Section = () => {
   return (
-    <div>
+    <div className="section_item smaller_width">
       <h2>Projects</h2>
       <div className="projects_section">
         <Project />

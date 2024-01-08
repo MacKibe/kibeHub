@@ -11,6 +11,17 @@ html {
   /* width: 75%; */
   margin: 0 auto;
 }
+/* 
+My sectino to have fixed width and have my content at the center of the page*/
+.smaller_width {
+  width: 80%;
+  margin-inline: auto;
+}
+/* 
+Give Padding and margin to items in the portfolio */
+.section_item {
+  margin-block: 3%;
+}
 /* Medium devices (landscape tablets, 768px and up) */
 @media only screen and (max-width: 768px) {
   body,

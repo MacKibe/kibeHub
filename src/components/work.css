@@ -1,0 +1,22 @@
+.work {
+  display: flex;
+  flex-basis: 100%;
+  gap: 5%;
+  width: 90%;
+  margin-inline: auto;
+  margin-block: 1%;
+  padding: 2%;
+}
+.work:nth-child(odd) {
+  background-color: aliceblue;
+}
+.work-title {
+  flex-basis: 20%;
+}
+.skills_gained li {
+    margin-left: 4%;
+}
+.skills_gained {
+    margin-left: 2%;
+}
+

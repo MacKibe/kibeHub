@@ -1,5 +1,5 @@
 .page_header {
-  background-color: rgba(192, 165, 90, 0.527);
+  background-color: #e0411dc5;
   display: grid;
   grid-template-columns: 1fr 3fr 1fr;
   align-items: center;
