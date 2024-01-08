@@ -4,6 +4,7 @@ const Projects_Section = () => {
   return (
     <div className="section_item smaller_width">
       <h2>Projects</h2>
+      <hr />
       <div className="projects_section">
         <Project />
         <Project />

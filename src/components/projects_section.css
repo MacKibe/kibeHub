@@ -1,8 +1,16 @@
 .projects_section {
-    display: flex;
-    padding: 2%;
-    gap: 2%;
+  display: flex;
+  padding: 2%;
+  gap: 2%;
 }
 .projects_section img {
-    width: 100%;
+  width: 100%;
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (max-width: 425px) {
+  /* Make the project cards stack on top of each other when they reach the medium breakpoint */
+  .projects_section {
+    display: block;
+  }
 }

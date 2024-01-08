@@ -1,17 +1,41 @@
 .project {
+  background-color: #8367c7;
+  color: #f0fff1;
   display: flex;
   flex-direction: column;
   padding: 1%;
   border: 1px solid rgb(110, 75, 75);
   transition: box-shadow 0.4s ease-in-out;
+  animation: myAnim 2s ease 0s 1 normal forwards;
 }
 .project:hover {
-  background-color: aliceblue;
-  box-shadow: 1px 3px 36px -2px rgba(0,0,0,0.75);
-  -webkit-box-shadow: 1px 3px 36px -2px rgba(0,0,0,0.75);
-  -moz-box-shadow: 1px 3px 36px -2px rgba(0,0,0,0.75);
+  background-color: #f0fff1;
+  color: #8367c7;
+  box-shadow: 1px 3px 36px -2px rgba(0, 0, 0, 0.75);
+  -webkit-box-shadow: 1px 3px 36px -2px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 1px 3px 36px -2px rgba(0, 0, 0, 0.75);
 }
-a{
+a {
   text-decoration: none;
   color: black;
+}
+
+/* 
+Animation for my projects to pop */
+@keyframes myAnim {
+  0% {
+    transform: scale(0.5);
+  }
+
+  100% {
+    transform: scale(1);
+  }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (max-width: 425px) {
+  /* Make the project cards stack on top of each other when they reach the medium breakpoint */
+  .project {
+    margin-block: 10%;
+  }
 }

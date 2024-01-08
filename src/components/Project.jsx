@@ -4,13 +4,13 @@ const Project = () => {
   return (
     <>
       <a href="http://" className="project">
-        <p>
-          <h3>Mashamba</h3>
-        </p>
+        <h3>Mashamba</h3>
         <figure>
           <figcaption className="project_details">
             <p>Surveyor's digital document assistant.</p>
-            <p>Status: <b>Ongoing Project.</b></p>
+            <p>
+              Status: <b>Ongoing Project.</b>
+            </p>
           </figcaption>
           <img src={mashamba_screen_shot} alt="" />
         </figure>

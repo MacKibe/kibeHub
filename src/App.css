@@ -22,11 +22,3 @@ Give Padding and margin to items in the portfolio */
 .section_item {
   margin-block: 3%;
 }
-/* Medium devices (landscape tablets, 768px and up) */
-@media only screen and (max-width: 768px) {
-  body,
-  html {
-    background-color: #001a42;
-    width: 100%;
-  }
-}
