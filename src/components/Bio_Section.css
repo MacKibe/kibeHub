@@ -1,21 +1,20 @@
 .bio_section {
+  display: flex;
+  gap: 10%;
   background: url(../assets/bg-shapes.jpg) no-repeat;
   background-size: cover;
   min-height: 80dvh;
   color: #2ec4b6;
 }
-.image_box img {
-  position: absolute;
-  left: 2%;
-  bottom: 14%;
-  width: 40%;
+img {
+  width: 45%;
+  object-fit: contain;
   animation: myImageAnimation 3s ease 0s 1 normal forwards;
 }
-.image_box .bio_details {
-  width: 28%;
-  position: absolute;
-  left: 45%;
-  top: 28%;
+.bio_details {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
   animation: myImageAnimation 3s ease 1s 1 normal forwards;
 }
 .bio_details h2 {
@@ -23,44 +22,16 @@
   font-family: "Bree Serif", serif;
 }
 .bio_details h4 {
-  padding-top: 10%;
+  padding-top: 2%;
 }
 .bio_section button {
+  width: 30%;
   background-color: #e0411dc5;
   border: 3px solid rgb(255, 255, 255);
-  margin-top: 5%;
-  float: right;
+  margin: 5% 0;
   padding: 3% 6%;
   font-weight: bolder;
-}
-.socials_section {
-  width: 3%;
-  display: flex;
-  flex-direction: column;
-  position: absolute;
-  top: 30%;
-  right: 1%;
-}
-.socials_section img {
-  background-color: aliceblue;
-  border-radius: 10%;
-  width: 80%;
-  margin-block: 20%;
-}
-.socials_section a {
-  animation: dropDownAnimation 3s ease 1 normal forwards;
-}
-.socials_section a:nth-child(4) {
-  animation-delay: 2s;
-}
-.socials_section a:nth-child(3) {
-  animation-delay: 3s;
-}
-.socials_section a:nth-child(2) {
-  animation-delay: 4s;
-}
-.socials_section a:nth-child(1) {
-  animation-delay: 5s;
+  margin-left: auto;
 }
 /* Animation for my items
 */
@@ -76,85 +47,38 @@
     transform: translateX(0);
   }
 }
-/* 
-Socials media icons */
-@keyframes dropDownAnimation {
-  0% {
-    animation-timing-function: ease-in;
-    opacity: 0;
-    transform: translateY(-250px);
-  }
-
-  38% {
-    animation-timing-function: ease-out;
-    opacity: 1;
-    transform: translateY(0);
-  }
-
-  55% {
-    animation-timing-function: ease-in;
-    transform: translateY(-65px);
-  }
-
-  72% {
-    animation-timing-function: ease-out;
-    transform: translateY(0);
-  }
-
-  81% {
-    animation-timing-function: ease-in;
-    transform: translateY(-28px);
-  }
-
-  90% {
-    animation-timing-function: ease-out;
-    transform: translateY(0);
-  }
-
-  95% {
-    animation-timing-function: ease-in;
-    transform: translateY(-8px);
-  }
-
-  100% {
-    animation-timing-function: ease-out;
-    transform: translateY(0);
-  }
-}
 
 /* Medium devices (landscape tablets, 768px and up) */
 @media only screen and (max-width: 425px) {
-  .image_box img {
-    left: 15%;
-    bottom: 17%;
-    width: 70%;
+  .bio_section {
+    flex-direction: column-reverse;
+    align-items: center;
+    min-height: 55dvh;
   }
-  .image_box .bio_details {
-    width: 90%;
-    font-size: 80%;
-    left: 5%;
-    top: 20%;
+  .bio_details {
+    width: 75%;
+  }
+  .bio_details {
+    font-size: 70%;
+  }
+  .bio_section button {
+    width: 45%;
   }
   .socials_section {
     width: 8%;
-    top: 60%;
   }
 }
 
 /* Medium devices (landscape tablets, 768px and up) */
 @media only screen and (max-width: 375px) {
   .image_box img {
-    left: 0%;
-    bottom: 17%;
     width: 100%;
   }
   .image_box .bio_details {
     font-size: 70%;
-    top: 12%;
   }
   .socials_section {
     width: 10%;
-    top: 45%;
   }
 }
 
@@ -162,10 +86,8 @@ Socials media icons */
 @media only screen and (max-width: 320px) {
   .image_box .bio_details {
     font-size: 70%;
-    top: 8%;
   }
   .socials_section {
     width: 10%;
-    top: 50%;
   }
 }
