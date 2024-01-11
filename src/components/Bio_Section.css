@@ -1,6 +1,5 @@
 .bio_section {
   display: flex;
-  gap: 10%;
   background: url(../assets/bg-shapes.jpg) no-repeat;
   background-size: cover;
   min-height: 80dvh;
@@ -33,9 +32,10 @@ img {
   font-weight: bolder;
   margin-left: auto;
 }
-/* Animation for my items
-*/
-/* The image */
+/* 
+Animation for my items*/
+/* 
+The image */
 @keyframes myImageAnimation {
   0% {
     opacity: 0;
@@ -48,7 +48,8 @@ img {
   }
 }
 
-/* Medium devices (landscape tablets, 768px and up) */
+/* 
+For Large Mobile Screens */
 @media only screen and (max-width: 425px) {
   .bio_section {
     flex-direction: column-reverse;
@@ -56,38 +57,34 @@ img {
     min-height: 55dvh;
   }
   .bio_details {
-    width: 75%;
+    width: 90%;
   }
   .bio_details {
-    font-size: 70%;
+    font-size: 60%;
   }
   .bio_section button {
-    width: 45%;
-  }
-  .socials_section {
-    width: 8%;
+    width: 40%;
   }
 }
-
-/* Medium devices (landscape tablets, 768px and up) */
+/*
+For Medium Mobile Screens */
 @media only screen and (max-width: 375px) {
-  .image_box img {
+  .bio_section {
     width: 100%;
+    min-height: 50vh;
   }
-  .image_box .bio_details {
-    font-size: 70%;
-  }
-  .socials_section {
-    width: 10%;
+  .bio_details {
+    width: 90%;
   }
 }
 
-/* Medium devices (landscape tablets, 768px and up) */
+/* 
+For Small Mobile Screens */
 @media only screen and (max-width: 320px) {
-  .image_box .bio_details {
-    font-size: 70%;
+  .bio_details {
+    min-height: 35dvh;
   }
-  .socials_section {
-    width: 10%;
+  .bio_section button {
+    width: 50%;
   }
 }

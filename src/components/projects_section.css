@@ -1,10 +1,9 @@
 .projects_section {
   display: flex;
   padding: 2%;
-  gap: 2%;
 }
 .projects_section img {
-  width: 100%;
+  width: 80%;
 }
 
 /* Medium devices (landscape tablets, 768px and up) */
