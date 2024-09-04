@@ -1,11 +1,11 @@
-import me from "../../public/me.jpg";
+import me from "../../public/1.png";
 const Bio = () => {
   return (
     <div className="bio-section">
-      <img src={me} alt="ndichu james standingn" />
       <div className="profile-bio">
+        <img src={me} alt="ndichu james standingn" />
         <h1>Ndichu James</h1>
-        <h2>FrontEnd Engineer</h2>
+        <h2>FullStack Engineer</h2>
         <p>
           I build pixel-perfect, engaging, and accessible digital experiences.
         </p>
@@ -25,9 +25,15 @@ const Bio = () => {
       </nav>
       <div className="socials-section">
         <ul>
-        <li><a href="">LinkedIn</a></li>
-        <li><a href="">Github</a></li>
-        <li><a href="">Instagram</a></li>
+          <li>
+            <a href="">LinkedIn</a>
+          </li>
+          <li>
+            <a href="">Github</a>
+          </li>
+          <li>
+            <a href="">Instagram</a>
+          </li>
         </ul>
       </div>
     </div>
