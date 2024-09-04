@@ -1,24 +1,33 @@
-* {
+/* Color palette */
+:root {
+  --raisin: #262322;
+  --captum: #63372C;
+  --burnt: #C97D60;
+  --melon: #FFBCB5;
+  --almond: #F2E5D7;
+}
+*{
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
-body,
-html {
-  /* Display my items in the middle */
+.homepage {
+  display: flex;
+  background-color: var(--raisin);
+  color: var(--almond);
   min-height: 100dvh;
-  color: #001a42;
-  /* width: 75%; */
-  margin: 0 auto;
 }
-/* 
-My sectino to have fixed width and have my content at the center of the page*/
-.smaller_width {
-  width: 80%;
-  margin-inline: auto;
+.bio-section{
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  margin-left: 10%;
 }
-/* 
-Give Padding and margin to items in the portfolio */
-.section_item {
-  margin-block: 3%;
+img{
+  width: 30%;
+  border-radius: 50%;
+}
+.body-section {
+  flex: 1;
 }
