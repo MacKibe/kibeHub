@@ -1,8 +1,9 @@
-
 const Projects = () => {
   return (
-    <div>Projects</div>
-  )
-}
+    <div>
+      <h2>PROJECTS</h2>
+    </div>
+  );
+};
 
-export default Projects
+export default Projects;

@@ -11,6 +11,7 @@ const WorkExperience = () => {
   }, []);
   return (
     <div className="work-experience">
+      <h2>EXPERIENCE</h2>
       {workData.map((job, index) => (
         <div key={index} className="job">
           <div>{job.duration}</div>
