@@ -5,103 +5,210 @@
   --burnt: #c97d60;
   --melon: #ffbcb5;
   --almond: #f2e5d7;
+  --light-melon: #ffbcb53c;
 }
+
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  list-style: none;
 }
+
 .homepage {
-  display: flex;
   background-color: var(--raisin);
   color: var(--almond);
-  /* height: 100dvh; */
 }
 
-.bio-section {
-  flex: 1;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-evenly;
-  margin-left: 10%;
-}
-.sticky-header {
-  display: none;
+.header {
   position: sticky;
   top: 0;
-  background-color: white;
-  z-index: 1000;
-  padding: 10px;
-  border-bottom: 1px solid #ddd;
-}
-img {
-  width: 50%;
-  border-radius: 50%;
-  background-color: var(--captum);
-  border: 5px solid var(--burnt);
-  transition: background-color 0.7s, border 0.7s, transform 0.7s;
-}
-img:hover {
-  background-color: var(--burnt);
-  border: 5px solid var(--captum);
-  transform: rotateY(180deg);
-  cursor: pointer;
-}
-
-.socials-section ul {
-  /* background-color: #F2E5D7; */
-  width: 50%;
+  z-index: 900;
+  background-color: var(--raisin);
+  height: 12dvh;
   display: flex;
   justify-content: space-between;
+  align-items: center;
+  padding: 0 5%;
 }
 
+.logo {
+  flex: 1;
+}
+
+nav {
+  flex: 0.5;
+}
+
+nav ul {
+  display: flex;
+  gap: 5%;
+}
+
+nav li {
+  list-style: none;
+}
 a {
-  color: var(--burnt);
-}
-
-.body-section {
-  flex: 1.5;
-  overflow: scroll;
-  padding-top: 5%;
-}
-.body-bio-section {
-  margin-bottom: 15%;
-}
-.body-section p {
-  margin: 2% 0;
-  width: 90%;
+  text-decoration: none;
   color: var(--almond);
-  font-size: 90%;
-}
-.body-section b {
-  color: var(--burnt);
-  font-size: 120%;
-}
-.body-section em {
-  color: var(--burnt);
-}
-h2 {
-  display: none;
-}
-@keyframes spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
 }
 
-/* ---------------------------------- Mobile view -------------------------------*/
-@media only screen and (max-width: 600px) {
-  .homepage {
-    display: block;
-  }
-  nav {
-    display: none;
-  }
-  h2 {
-    display: block;
-  }
+a:hover {
+  font-weight: 600;
+  text-decoration: underline;
+}
+
+.resume {
+  background-color: var(--burnt);
+  color: var(--almond);
+  padding: 15% 30%;
+}
+
+.resume:hover {
+  background-color: var(--melon);
+  color: var(--captum);
+  transition-duration: 1s;
+  text-decoration: none;
+}
+
+/* ----------------------- Hero Section ----------------------------- */
+
+.hero_section {
+  background-color: var(--captum);
+  background-image: url("../public/assests/background.svg");
+  background-repeat: no-repeat;
+  mix-blend-mode: lighten;
+  min-height: 88dvh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-left: 10%;
+}
+
+.hero_section h2 {
+  font-size: 3.5em;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+
+h4 {
+  color: var(--melon);
+  font-size: 1.5em;
+  font-family: "Courier New", Courier, monospace;
+}
+
+h2 b {
+  color: var(--burnt);
+}
+
+.hero_section p {
+  margin: 1% 0;
+  width: 70%;
+  font-size: 1.5em;
+}
+
+strong {
+  color: var(--burnt);
+}
+
+/* ----------------------------------- About Me Section ----------------------------- */
+.about_me {
+  margin: 0 auto;
+  width: 80%;
+  display: block;
+  min-height: 90dvh;
+  padding: 5% 0;
+}
+
+.about_me h2 {
+  font-size: 2em;
+  margin: 1% 0;
+}
+
+.about_me .details {
+  display: flex;
+  align-content: center;
+  gap: 10%;
+  align-items: start;
+}
+
+.about-me_bio {
+  flex: 2.5;
+  font-size: 1.4em;
+}
+
+.about-me_bio p {
+  margin: 2% 0;
+}
+
+.image_container {
+  flex: 1;
+  width: 10%;
+  border: 2px solid var(--burnt);
+}
+
+img {
+  width: 100%;
+  transform: translate(-0.5em, -0.5em);
+}
+
+/* --------------------------------   Experience Section   ------------------------------- */
+
+.experience {
+  padding: 5% 10%;
+  margin: 0 auto;
+  min-height: 90dvh;
+  background-color: var(--burnt);
+  color: var(--raisin);
+}
+.experience h2 {
+  margin: 2% 0;
+}
+.experience li {
+  margin: 1% 0;
+  list-style: decimal;
+  margin-left: 5%;
+}
+.work-experience {
+  width: 85%;
+  margin: 0 auto;
+  display: flex;
+  gap: 5%;
+}
+.job-list {
+  flex: .4;
+}
+.job-item {
+  margin: 1% 0;
+  padding: 3% 1%;
+  border-left: 4px solid var(--captum);
+  padding-left: 3%;
+  font-size: 80%;
+}
+.job-item:hover {
+  background-color: var(--light-melon);
+  color: var(--melon);
+  border-left: 4px solid var(--melon);
+}
+.job-item-active {
+  background-color: var(--light-melon);
+  color: var(--melon);
+  border-left: 4px solid var(--melon);
+}
+.job-item h5 {
+  color: var(--almond);
+  margin-left: 2%;
+}
+.job-description {
+  flex: 1;
+  font-size: 1.1em;
+}
+.job-description h4 {
+  margin: 2% 0;
+  text-decoration: underline;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+
+/* -------------------------------- Projects Section -------------------------------- */
+
+.projects-section{
+  min-height: 90dvh;
 }

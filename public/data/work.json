@@ -3,17 +3,19 @@
         {
             "position": "IT & Data Manager",
             "company": "HOPAWI Management Consulting LTD",
+            "shortName": "HOPAWI",
             "duration": "Feb 2024 - April 2024",
-            "description": "Was employed as an IT & Data manager at Hopawi, where I was responsible for overseeing all technical operations within the company.",
+            "description": "Was employed as an IT & Data manager at Hopawi, where I was responsible for: ",
             "roles_responsibilities": [
-                "Technical Operations: Oversee all technical operations within the company, ensuring smooth and efficient functioning of IT systems.",
-                "Website Development: Successfully developed and launched the Hopawi website, and created an additional website for HOPAWIPDI.",
-                "Non-Technical Support: Assist in running non-technical errands for the business, including administrative and operational tasks e.g., facilitated the creation of data handler and data controller roles in compliance with the Data Protection Compliance and Enforcement Regulations in Kenya."
+                "Oversee all technical operations within the company, ensuring smooth and efficient functioning of IT systems.",
+                "Successfully developed and launched the Hopawi website, and created an additional website for HOPAWIPDI.",
+                "Assist in running non-technical errands for the business, including administrative and operational tasks e.g., facilitated the creation of data handler and data controller roles in compliance with the Data Protection Compliance and Enforcement Regulations in Kenya."
             ]
         },
         {
             "position": "Software Developer Researcher",
             "company": "Mutall Data",
+            "shortName": "Mutall",
             "duration": "Feb 2022 - Feb 2024",
             "description": "A proactive member of the Mutall Data developers group, contributing significantly to web development, database management, and software documentation.",
             "notable_achievements": [
@@ -24,12 +26,14 @@
         {
             "position": "Community Health Worker",
             "company": "National Health gig",
+            "shortName": "Health",
             "duration": "Jul 2020 \u2013 Feb 2021",
             "description": "Engaged in community initiatives during the pandemic, demonstrating adaptability and a commitment to social responsibility."
         },
         {
             "position": "IT intern",
-            "company": "Marist International College University",
+            "company": "Marist International University College",
+            "shortName": "MIUC",
             "duration": "Jul 2019 \u2013 Nov 2019",
             "description": "Played a pivotal role in ensuring the smooth functioning of computer labs, network accessibility, and providing technical support to students and university departments, highlighting a customer-centric approach and problem-solving abilities."
         }
