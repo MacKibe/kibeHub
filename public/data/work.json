@@ -48,7 +48,7 @@
   "projects": [
     {
       "project_name": "HOPAWI Website",
-      "project_image": "../src/assests/HOPAWI.jpeg",
+      "project_image": "./assests/HOPAWI.jpeg",
       "project_links": {
         "project_url": "https://hopawi.com/",
         "github_link": "https://github.com/MacKibe"
@@ -63,7 +63,7 @@
     },
     {
       "project_name": "HOPAWIPDI Website",
-      "project_image": "../src/assests/HOPAWIPDI.jpeg",
+      "project_image": "./assests/HOPAWIPDI.jpeg",
       "project_links": {
         "project_url": "https://hopawipdi.com/",
         "github_link": "https://github.com/MacKibe"
