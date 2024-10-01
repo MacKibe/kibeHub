@@ -1,41 +1,80 @@
 {
-    "work": [
-        {
-            "position": "IT & Data Manager",
-            "company": "HOPAWI Management Consulting LTD",
-            "shortName": "HOPAWI",
-            "duration": "Feb 2024 - April 2024",
-            "description": "Was employed as an IT & Data manager at Hopawi, where I was responsible for: ",
-            "roles_responsibilities": [
-                "Oversee all technical operations within the company, ensuring smooth and efficient functioning of IT systems.",
-                "Successfully developed and launched the Hopawi website, and created an additional website for HOPAWIPDI.",
-                "Assist in running non-technical errands for the business, including administrative and operational tasks e.g., facilitated the creation of data handler and data controller roles in compliance with the Data Protection Compliance and Enforcement Regulations in Kenya."
-            ]
-        },
-        {
-            "position": "Software Developer Researcher",
-            "company": "Mutall Data",
-            "shortName": "Mutall",
-            "duration": "Feb 2022 - Feb 2024",
-            "description": "A proactive member of the Mutall Data developers group, contributing significantly to web development, database management, and software documentation.",
-            "notable_achievements": [
-                "Developing a CMS website for Kiama Kia Ma.",
-                "Developing a File Management System for a Surveyor, showcasing proficiency in handling complex data and image management tasks."
-            ]
-        },
-        {
-            "position": "Community Health Worker",
-            "company": "National Health gig",
-            "shortName": "Health",
-            "duration": "Jul 2020 \u2013 Feb 2021",
-            "description": "Engaged in community initiatives during the pandemic, demonstrating adaptability and a commitment to social responsibility."
-        },
-        {
-            "position": "IT intern",
-            "company": "Marist International University College",
-            "shortName": "MIUC",
-            "duration": "Jul 2019 \u2013 Nov 2019",
-            "description": "Played a pivotal role in ensuring the smooth functioning of computer labs, network accessibility, and providing technical support to students and university departments, highlighting a customer-centric approach and problem-solving abilities."
-        }
-    ]
+  "work": [
+    {
+      "position": "IT & Data Manager",
+      "company": "HOPAWI Management Consulting LTD",
+      "shortName": "HOPAWI LTD",
+      "duration": "February - April 2024",
+      "description": "Served as the IT & Data Manager at Hopawi, with key responsibilities that included:",
+      "roles_responsibilities": [
+        "Oversaw all technical operations, ensuring smooth and efficient functioning of IT systems within the company.",
+        "Developed and launched the Hopawi website, and additionally created a website for HOPAWIPDI.",
+        "Supported non-technical tasks, including administrative and operational duties, such as facilitating the establishment of data handler and data controller roles in compliance with Kenya's Data Protection Compliance and Enforcement Regulations."
+      ]
+    },
+    {
+      "position": "Software Developer and Researcher",
+      "company": "Mutall Data",
+      "shortName": "Mutall Data",
+      "duration": "February 2022 - February 2024",
+      "description": "A proactive member of the Mutall Data developers group, contributing significantly to web development, database management, and software documentation.",
+      "notable_achievements": [
+        "Developing a CMS website for Kiama Kia Ma.",
+        "Developing a File Management System for a Surveyor, showcasing proficiency in handling complex data and image management tasks."
+      ]
+    },
+    {
+      "position": "Community Health Worker",
+      "company": "National Health gig",
+      "shortName": "Health Gig",
+      "duration": "July 2020 – February 2021",
+      "description": "Engaged in community initiatives during the pandemic, demonstrating adaptability and a commitment to social responsibility."
+    },
+    {
+      "position": "IT intern",
+      "company": "Marist International University College",
+      "shortName": "Marist International University College",
+      "duration": "July – November 2019",
+      "description": "Played a pivotal role in maintaining a customer-centric approach and demonstrated problem-solving abilities in various technical operations at the university.",
+      "roles_responsibilities": [
+        "Ensured the smooth functioning of computer labs and all related equipment.",
+        "Maintained and monitored network accessibility for students and staff across the university.",
+        "Provided timely and effective technical support to students, faculty, and university departments.",
+        "Demonstrated a customer-centric approach in resolving technical issues and queries.",
+        "Applied strong problem-solving abilities to diagnose and fix technical issues efficiently."
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "project_name": "HOPAWI Website",
+      "project_image": "../src/assests/HOPAWI.jpeg",
+      "project_links": {
+        "project_url": "https://hopawi.com/",
+        "github_link": "https://github.com/MacKibe"
+      },
+      "project_description": "HOPAWI PDI is a career development institute, and its goal is to align personal and professional interests for career growth, either for professionals who would like to start their consulting firms or professionals stuck in their careers, or young professionals who require assistance in starting their career journey",
+      "project_technologies_used": [
+        "Wordpress",
+        "WP Plugins",
+        "WP Themes",
+        "WP Forms"
+      ]
+    },
+    {
+      "project_name": "HOPAWIPDI Website",
+      "project_image": "../src/assests/HOPAWIPDI.jpeg",
+      "project_links": {
+        "project_url": "https://hopawipdi.com/",
+        "github_link": "https://github.com/MacKibe"
+      },
+      "project_description": "HOPAWI is a social research company that aims to provide accurate, reliable, and quality data crucial in advising on policymaking processes, and designing products and services.",
+      "project_technologies_used": [
+        "WP Forms",
+        "WP Plugins",
+        "Wordpress",
+        "WP Themes"
+      ]
+    }
+  ]
 }

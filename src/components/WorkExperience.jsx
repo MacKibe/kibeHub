@@ -19,7 +19,7 @@ const WorkExperience = () => {
   };
 
   return (
-    <div className="experience">
+    <section className="experience min-width">
       <h2>Where I've Worked.</h2>
       <div className="work-experience">
         {/* Left section: Job list */}
@@ -31,7 +31,6 @@ const WorkExperience = () => {
               onClick={() => handleJobClick(job)}
             >
               <h3>{job.shortName}</h3>
-              <h5>({job.duration})</h5>
             </div>
           ))}
         </div>
@@ -41,11 +40,14 @@ const WorkExperience = () => {
           {selectedJob ? (
             <>
               <h4>
-                {selectedJob.position} - {selectedJob.company}
+                {selectedJob.position} <strong>@ {selectedJob.company}</strong>
               </h4>
+              <h5>Duration : <strong>{selectedJob.duration}</strong></h5>
+              <p><strong>Description.</strong></p>
               <p>{selectedJob.description}</p>
               {selectedJob.roles_responsibilities && (
                 <ul>
+                  <p><strong>Roles and responsibilities.</strong></p>
                   {selectedJob.roles_responsibilities.map((role, idx) => (
                     <li key={idx}>{role}</li>
                   ))}
@@ -64,7 +66,7 @@ const WorkExperience = () => {
           )}
         </div>
       </div>
-    </div>
+    </section>
   );
 };
 

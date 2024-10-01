@@ -1,10 +1,10 @@
-import me from "../../public/me.jpg";
+import me from "../assests/me.jpg";
 
 const AboutMe = () => {
   return (
     <section className="about_me">
       <header>
-        <h2 id="about_me">About Me</h2>
+        <h2 id="about_me">About Me.</h2>
       </header>
       <article className="details">
         <div className="about-me_bio">
