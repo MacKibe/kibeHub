@@ -1,4 +1,4 @@
-import me from "../assests/me.jpg";
+import me from "/assests/me.jpg";
 
 const AboutMe = () => {
   return (
