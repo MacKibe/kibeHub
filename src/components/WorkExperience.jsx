@@ -19,7 +19,7 @@ const WorkExperience = () => {
   };
 
   return (
-    <section className="experience min-width">
+    <section className="experience min-width" id="experience">
       <h2>Where I've Worked.</h2>
       <div className="work-experience">
         {/* Left section: Job list */}

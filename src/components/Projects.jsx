@@ -17,7 +17,7 @@ const Projects = () => {
   }, []);
 
   return (
-    <section className="projects-section min-width">
+    <section className="projects-section min-width" id="projects">
       <h2>Some Things I’ve Built.</h2>
       {projectData.length > 0 ? (
         projectData.map((project, index) => (
