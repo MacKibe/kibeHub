@@ -1,20 +1,24 @@
-import AboutMe from "./components/AboutMe";
-import Footer from "./components/Footer";
 import Header from "./components/Header";
-import Hero from "./components/Hero";
-import Projects from "./components/Projects";
-import WorkExperience from "./components/WorkExperience";
+import Hero from "./sections/Hero";
+import About from "./sections/About";
+import WorkExperience from "./sections/Experience";
+import Projects from "./sections/Projects";
+import Skills from "./sections/Skills";
+import Contact from "./sections/Contact";
+import Footer from "./components/Footer";
 
-function App() {
+const App = () => {
   return (
-    <div className="homepage">
+    <>
       <Header />
       <Hero />
-      <AboutMe />
+      <About />
       <WorkExperience />
       <Projects />
+      <Skills />
+      <Contact />
       <Footer />
-    </div>
+    </>
   );
 }
 
