@@ -1,25 +1,25 @@
-import Header from "./components/Header";
+import Header from "./sections/Header";
 import Hero from "./sections/Hero";
 import About from "./sections/About";
-import WorkExperience from "./sections/Experience";
+import Experience from "./sections/Experience";
 import Projects from "./sections/Projects";
 import Skills from "./sections/Skills";
 import Contact from "./sections/Contact";
-import Footer from "./components/Footer";
+import Footer from "./sections/Footer";
 
 const App = () => {
   return (
-    <>
-      <Header />
+    <div className="bg-background">
+      <Header/>
       <Hero />
       <About />
-      <WorkExperience />
+      <Experience />
       <Projects />
       <Skills />
       <Contact />
       <Footer />
-    </>
+    </div>
   );
-}
+};
 
 export default App;

@@ -1,10 +1,15 @@
 @import "tailwindcss";
 
-:root {
-  --raisin: #262322;
-  --captum: #63372c;
-  --burnt: #c97d60;
-  --melon: #ffbcb5;
-  --almond: #f2e5d7;
-  --light-melon: #ffbcb53c;
+@theme {
+  --color-primary: #0EA5E9;
+  --color-secondary: #14B8A6;
+  --color-background: #E3F0F6 ;
+  --color-background-2: #F1F5F8 ;
+  --color-tertiary: #0284C7;
+}
+
+h2{
+  font-size: 120%;
+  color: var(--color-primary);
+  font-weight: bold;
 }
