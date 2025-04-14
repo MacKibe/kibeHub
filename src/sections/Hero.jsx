@@ -3,7 +3,7 @@ import { FaWandMagicSparkles } from "react-icons/fa6";
 import { TbBracketsAngle } from "react-icons/tb";
 const Hero = () => {
   return (
-    <section className="flex flex-col text-center justify-center text-xl space-y-8 h-[90dvh] w-[45%] mx-auto">
+    <section className="flex flex-col text-center justify-center text-xl space-y-8 w-[55%] mx-auto">
       <p className="flex gap-4 items-center mx-auto"><TbBracketsAngle />Software Developer</p>
       <h1 className="text-6xl font-bold">
         Hi, I'm <b className="text-primary">Ndichu James Kiberenge👋</b>

@@ -13,11 +13,11 @@ const Footer = () => {
         </div>
         <div className="flex justify-evenly flex-1">
           <div>
-            <h2>Quick Links</h2>
+            <h3>Quick Links</h3>
             <Navbar direction="col"/>
           </div>
           <div>
-            <h2>Connect.</h2>
+            <h3>Connect.</h3>
             <ul>
               <li>Linked</li>
               <li>Github</li>

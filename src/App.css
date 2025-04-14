@@ -9,7 +9,20 @@
 }
 
 h2{
-  font-size: 120%;
+  font-size: 200%;
   color: var(--color-primary);
   font-weight: bold;
+}
+h3 {
+  font-size: 130%;
+  font-weight: bold;
+  padding-bottom: 3%;
+}
+h4 {
+  font-size: 120%;
+  font-weight: bold;
+}
+section {
+  min-height: 90dvh;
+  padding-inline: 5%;
 }
