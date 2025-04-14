@@ -12,6 +12,7 @@ h2{
   font-size: 200%;
   color: var(--color-primary);
   font-weight: bold;
+  text-decoration: underline var(--color-secondary);
 }
 h3 {
   font-size: 130%;
