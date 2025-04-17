@@ -3,7 +3,7 @@ import Logo from "../components/Logo";
 const Footer = () => {
   return (
     <footer className="bg-background-2 px-16 py-8">
-      <section className="flex justify-evenly py-4 items-center">
+      <div className="flex justify-evenly py-4 items-center">
         <div className="flex-1">
           <div className="w-[50%]"><Logo />
           <p>
@@ -26,12 +26,12 @@ const Footer = () => {
             </ul>
           </div>
         </div>
-      </section>
-      <section>
+      </div>
+      <div>
         <p className="text-center py-8">
           © 2025 Ndichu James Kiberenge. All rights reserved.
         </p>
-      </section>
+      </div>
     </footer>
   );
 };

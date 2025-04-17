@@ -1,9 +1,9 @@
 import ppa from "../assests/ppa.jpg";
 const ProjectBox = () => {
   return (
-    <div className="border-1 border-primary w-[30%]">
+    <div className="border-1 border-primary w-[45%]">
       <div>
-        <img src={ppa} alt="" />
+        <img src={ppa} alt="" className="h-[25dvh] w-full object-cover" />
       </div>
       <div className="p-5">
         <p>
@@ -12,7 +12,7 @@ const ProjectBox = () => {
           omnis consequuntur beatae laudantium dignissimos quae illum, molestias
           libero hic nobis, rem eius!
         </p>
-        <ul className="flex flex-wrap items-center space-x-7 text-nowrap space-y-3 py-5">
+        <ul className="flex flex-wrap items-center space-x-5 py-5">
           <li className="px-4 py-1 border-1 text-primary border-primary rounded-2xl">React</li>
           <li className="px-4 py-1 border-1 text-primary border-primary rounded-2xl">Node</li>
           <li className="px-4 py-1 border-1 text-primary border-primary rounded-2xl">Mongo DB</li>

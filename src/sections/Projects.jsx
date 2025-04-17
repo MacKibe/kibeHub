@@ -30,7 +30,9 @@ const Projects = () => {
           </a>
         </li>
       </ul>
-      <div className="flex flex-wrap space-x-10 space-y-10 ">
+      <div className="flex flex-wrap gap-7">
+        <ProjectBox />
+        <ProjectBox />
         <ProjectBox />
         <ProjectBox />
         <ProjectBox />

@@ -25,4 +25,5 @@ h4 {
 section {
   min-height: 90dvh;
   padding-inline: 5%;
+  padding-block: 2%;
 }

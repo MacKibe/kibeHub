@@ -10,23 +10,23 @@ const Skills = () => {
       </div>
       <div>
         <h4 className="text-center">Additional Skills</h4>
-        <ul className="flex flex-wrap py-5 space-x-7">
-          <li className="flex px-4 py-1 border-1 gap-3">
+        <ul className="flex flex-wrap py-5 gap-5">
+          <li className="flex w-[30%] px-4 py-3 border-1 gap-3">
             @ <p>Problem Solving</p>
           </li>
-          <li className="flex px-4 py-1 border-1 gap-3">
+          <li className="flex w-[30%] px-4 py-3 border-1 gap-3">
             @ <p>Responsive Design</p>
           </li>
-          <li className="flex px-4 py-1 border-1 gap-3">
+          <li className="flex w-[30%] px-4 py-3 border-1 gap-3">
             @ <p>API Intergration</p>
           </li>
-          <li className="flex px-4 py-1 border-1 gap-3">
+          <li className="flex w-[30%] px-4 py-3 border-1 gap-3">
             @ <p>Team Collaboration</p>
           </li>
-          <li className="flex px-4 py-1 border-1 gap-3">
+          <li className="flex w-[30%] px-4 py-3 border-1 gap-3">
             @ <p>Content Management Systems</p>
           </li>
-          <li className="flex px-4 py-1 border-1 gap-3">
+          <li className="flex w-[30%] px-4 py-3 border-1 gap-3">
             @ <p>Research % Learning</p>
           </li>
         </ul>

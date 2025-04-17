@@ -1,7 +1,7 @@
 import StackJourney from "../components/StackJourney";
 const About = () => {
   return (
-    <section className="py-10">
+    <section>
       <h2 className="underline decoration-secondary">About Me.</h2>
       <div className="flex gap-10 py-[3%] ">
         <span className="flex-1 text-lg space-y-8">
