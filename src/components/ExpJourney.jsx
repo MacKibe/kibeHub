@@ -1,5 +1,5 @@
 import { FaBriefcase } from "react-icons/fa";
-const StackJourney = () => {
+const ExpJourney = () => {
   return (
     <div className="flex border-l-1 py-3 border-primary">
       <div className="space-y-2 ml-7">
@@ -15,4 +15,4 @@ const StackJourney = () => {
   );
 };
 
-export default StackJourney;
+export default ExpJourney;

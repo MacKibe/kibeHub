@@ -1,7 +1,7 @@
 const Contact = () => {
   return (
     <section>
-      <h2 className="py-5">Get in Touch</h2>
+      <h2>Get in Touch</h2>
       <div className="flex">
         <div className="space-y-5 flex-1"> 
           <h3 className="">Contact Information</h3>

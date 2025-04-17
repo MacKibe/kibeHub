@@ -2,7 +2,7 @@ import ProjectBox from "../components/ProjectBox";
 const Projects = () => {
   return (
     <section>
-      <h2 className="underline">Projects.</h2>
+      <h2>Projects.</h2>
       <ul className="flex justify-center space-x-6 py-10 items-center">
         <li>
           <a className="text-primary border-1 px-4 py-1 rounded-lg hover:bg-primary hover:text-white ">

@@ -9,6 +9,7 @@
 }
 
 h2{
+  padding-bottom: 2%;
   font-size: 200%;
   color: var(--color-primary);
   font-weight: bold;

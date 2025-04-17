@@ -1,8 +1,8 @@
-import StackJourney from "../components/StackJourney";
+import ExpJourney from "../components/ExpJourney";
 const About = () => {
   return (
     <section>
-      <h2 className="underline decoration-secondary">About Me.</h2>
+      <h2>About Me.</h2>
       <div className="flex gap-10 py-[3%] ">
         <span className="flex-1 text-lg space-y-8">
           <p className="text-justify">
@@ -28,10 +28,10 @@ const About = () => {
         <span className="flex-1">
           <h3>Tech Stack Journey</h3>
           <div className="flex flex-col space-y-6">
-            <StackJourney />
-            <StackJourney />
-            <StackJourney />
-            <StackJourney />
+            <ExpJourney />
+            <ExpJourney />
+            <ExpJourney />
+            <ExpJourney />
           </div>
         </span>
       </div>

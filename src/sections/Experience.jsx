@@ -1,4 +1,4 @@
-import StackJourney from "../components/StackJourney";
+import ExpJourney from "../components/ExpJourney";
 const Experience = () => {
   return (
     <section>
@@ -6,17 +6,17 @@ const Experience = () => {
       <div className="flex gap-10">
         <div className="flex-1">
           <h3>Work Experience</h3>
-          <StackJourney />
-          <StackJourney />
-          <StackJourney />
-          <StackJourney />
+          <ExpJourney />
+          <ExpJourney />
+          <ExpJourney />
+          <ExpJourney />
         </div>
         <div className="flex-1">
           <h3>Education</h3>
-          <StackJourney />
-          <StackJourney />
-          <StackJourney />
-          <StackJourney />
+          <ExpJourney />
+          <ExpJourney />
+          <ExpJourney />
+          <ExpJourney />
         </div>
       </div>
     </section>
